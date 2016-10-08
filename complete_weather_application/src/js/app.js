@@ -122,6 +122,8 @@ var card = new UI.Card({
   scrollable:true
 });
 
+var ajax = require('ajax');
+  
 // Display the Card
 card.show();
 card.on('click','select', function(e) {
@@ -142,7 +144,7 @@ card.on('click','select', function(e) {
     }
   );
     });
-var ajax = require('ajax');
+
 //var cityName = 'Bangalore';
 //var myAPIKey = '45b059433bebd3ff4885be4bf7e59a7c';
 var URL = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=45b059433bebd3ff4885be4bf7e59a7c';
