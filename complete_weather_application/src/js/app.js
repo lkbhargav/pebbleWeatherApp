@@ -4,6 +4,7 @@
  * This is where you write your app.
  */
 
+
 var UI = require('ui');
 
 var startUpCard = new UI.Card( {
