@@ -8,8 +8,8 @@
 var UI = require('ui');
 
 var startUpCard = new UI.Card( {
-  subtitle: 'Made by Bhargav',
-  body: 'Made in INDIA',
+  subtitle: 'By Bhargav',
+  body: 'Using JavaScript',
   style: 'small',
   title: 'Welcome to Weather App',
   backgroundColor: 'yellow'
